@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ac1790af-8485-4f26-a7d7-80a4bf3035eb",
+    "title": "box",
+    "description": "I am a box",
+    "price": 9000
+  },
+  {
+    "id": "de3583d3-6c3c-4491-8453-7b636750f0a2",
+    "title": "eraser",
+    "description": "I am a eraser",
+    "price": 9000
+  }
+]
