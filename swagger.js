@@ -5,7 +5,8 @@ const doc = {
     title: 'Library',
     description: 'Description'
   },
-  host: 'https://node-js-students-course.onrender.com'
+  host: 'node-js-students-course.onrender.com',
+  schemes: ['https'],
 };
 
 const outputFile = './swagger-output.json';
