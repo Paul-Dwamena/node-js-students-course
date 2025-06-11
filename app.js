@@ -6,6 +6,9 @@ app.use(express.json());
 
 
 
+
+
+
 app.get("/products", async (req, res) => {
     const products = await readDb();
     res.send({
@@ -108,6 +111,8 @@ function logRequest(req, res, next) {
     console.log(`[${new Date().toISOString()}] ${req.method} ${req.path}`);
     next();
 }
+
+
 
 
 
